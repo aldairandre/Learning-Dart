@@ -1,17 +1,21 @@
-// Var and basic t
+// Introductions Variables
 
 String sum() {
-  return '${10} + ${10} = ${10 + 10}';
+  var n1 = 10;
+  return '$n1 + $n1 = ${n1 + n1}';
 }
 
 String sub() {
-  return '{10} - ${10} = ${10 - 10}';
+  var n1 = 10;
+  return '$n1 - $n1 = ${n1 - n1}';
 }
 
 String mult() {
-  return '{10} * ${10} = ${10 * 10}';
+  var n1 = 10;
+  return '${n1} * ${n1} = ${n1 * n1}';
 }
 
 String div() {
-  return '{10} / ${10} = ${10 / 10}';
+  var n1 = 10;
+  return '${n1} / ${n1} = ${n1 / n1}';
 }
